@@ -13,5 +13,5 @@
 4. Run following command (Change /Users/rolle/... to correct path)
 
 ``` shell
-nativefier --name 'Todoist Custom' 'https://todoist.com/app/today' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": false } }' -e 10.1.0 --inject /Users/rolle/Projects/todoist-dracula-theme/style.css --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' --darwin-dark-mode-support --background-color '#22252e' --icon /Users/rolle/Projects/todoist-dracula-theme/icon.icns
+nativefier --name 'Todoist' 'https://todoist.com/app/today' --darwin-dark-mode-support --background-color '#22252e' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": false } }' --inject /Users/rolle/Projects/todoist-dracula-theme/style.css --icon /Users/rolle/Projects/todoist-dracula-theme/icon.icns
 ```
