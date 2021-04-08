@@ -7,6 +7,12 @@
 }
 
 .theme_dark {
+  #top_bar {
+    box-shadow: none !important;
+  }
+
+  .task_list_item__actions__active,
+  .task_list_item:hover,
   .expansion_panel .expansion_panel__header,
   .view_header,
   #content,
