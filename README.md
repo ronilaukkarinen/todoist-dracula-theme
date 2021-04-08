@@ -1,11 +1,11 @@
-### 🧛🏻‍♂️ Dracula theme for Todoist
+# 🧛🏻‍♂️ Dracula theme for Todoist
 
-#### Development
+## Development
 
 1. Run `npm install`
 2. Run `scss --style compressed style.scss > style.css`
 
-#### Mac app
+## Mac app
 
 1. Set up Todoist dark theme from settings
 2. Git clone this repository
