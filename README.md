@@ -13,5 +13,7 @@
 4. Run following command
 
 ``` shell
-nativefier --name 'Todoist' 'https://todoist.com/app/today' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": false } }' -e 10.1.0 --inject /Users/rolle/Projects/todoist-dracula-theme/style.css --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' --darwin-dark-mode-support
+nativefier --name 'Todoist Custom' 'https://todoist.com/app/today' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": false } }' -e 10.1.0 --inject /Users/rolle/Projects/todoist-dracula-theme/style.css --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' --darwin-dark-mode-support
 ```
+
+5. Have fun! You can get the official icns from the official app contents (search for icns file)
