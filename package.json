@@ -1,0 +1,9 @@
+{
+  "name": "todoist-dracula-theme",
+  "version": "1.0.0",
+  "description": "Dracula theme for Todoist",
+  "author": "Roni Laukkarinen (Twitter: @rolle, GitHub: ronilaukkarinen)",
+  "devDependencies": {
+    "scss": "^0.2.4"
+  }
+}
