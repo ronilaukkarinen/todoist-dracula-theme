@@ -102,8 +102,12 @@
 
 // Overrides
 .theme_dark {
+  #quick_find .quick_find__input,
   #top_bar {
     box-shadow: none !important;
+    background-color: var(--color-background-left-menu) !important;
+    border-color: var(--color-background-left-menu) !important;
+    background-image: none !important;
   }
 
   // Dark boxes
@@ -119,6 +123,7 @@
     }
   }
 
+  #quick_find [role=listbox],
   .who_to_notify_bar {
     border-color: var(--color-background-popups) !important;
     background-color: var(--color-background-popups) !important;
@@ -133,8 +138,6 @@
   .expansion_panel .expansion_panel__header,
   .view_header,
   #content,
-  #top_bar,
-  #quick_find .quick_find__input,
   .task_list_item {
     background-color: var(--color-background-generic) !important;
     border-color: var(--color-background-generic) !important;
