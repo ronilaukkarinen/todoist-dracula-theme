@@ -39,6 +39,7 @@
     box-shadow: none !important;
   }
 
+  // Header and main task list
   .section header,
   .task_list_item:hover .task_list_item__actions,
   .task_list_item__actions__active,
@@ -55,10 +56,21 @@
     background-image: none !important;
   }
 
+  .task_list_item .task_list_item__content {
+    z-index: 5;
+  }
+
+  .task_list_item:hover .task_list_item__actions {
+    z-index: 99;
+  }
+
+  // Modals etc.
   .comments_textarea_holder textarea,
   .comments_textarea_holder,
   .reactist_modal_box,
+  .reactist_modal_box div[role="button"],
   .reminders_picker_options,
+  .item_detail .sub_items_tab_container .task_list_item__actions,
   .menu_list {
     border-color: var(--color-background-popups) !important;
     background-color: var(--color-background-popups) !important;
@@ -69,6 +81,22 @@
     }
   }
 
+  .reactist_modal_box .task_list_item {
+    border-color: rgba(255, 255, 255, .1) !important;
+  }
+
+  // Actions
+  .items .task_list_item {
+    transition: all .2s cubic-bezier(.19, 1, .22, 1), background-color .2s cubic-bezier(.19, 1, .22, 1);
+  }
+
+  .items .task_list_item[aria-selected="true"] {
+    background: var(--color-background-popups) !important;
+    padding: 3px 14px !important;
+    border-radius: 5px !important;
+  }
+
+  // Left menu
   #left_menu .expansion_panel .expansion_panel__header,
   #left_menu .sidebar_expansion_panel,
   #left_menu,
