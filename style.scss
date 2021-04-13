@@ -17,24 +17,6 @@
 
 // Overrides
 .theme_dark {
-  // Clockify
-  .clockify-button,
-  .clockify-button-inactive {
-    z-index: 5;
-    align-self: center;
-    position: absolute;
-    left: -42px;
-    transition: all .22s;
-    opacity: 0;
-  }
-
-  .task_list_item:hover {
-    .clockify-button,
-    .clockify-button-inactive {
-      opacity: 1;
-    }
-  }
-
   #top_bar {
     box-shadow: none !important;
   }
@@ -136,5 +118,29 @@
   #left_menu.new_side_bar_design .SidebarListItem.SidebarListItem--selected,
   #left_menu.new_side_bar_design .SidebarListItem:hover {
     background: var(--color-background-hovers) !important;
+  }
+
+  // Clockify
+  .clockify-button,
+  .clockify-button-active,
+  .clockify-button-inactive {
+    z-index: 5;
+    padding: 0 !important;
+    align-self: center;
+    position: absolute;
+    left: -42px;
+    transition: all .22s;
+    opacity: 0;
+  }
+
+  .clockify-button-active {
+    opacity: 1 !important;
+  }
+
+  .task_list_item:hover {
+    .clockify-button,
+    .clockify-button-inactive {
+      opacity: 1;
+    }
   }
 }
